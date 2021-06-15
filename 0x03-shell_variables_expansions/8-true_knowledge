@@ -1,2 +1,2 @@
 #!/bin/bash
-let a=128+$TRUEKNOWLEDGE | echo $a
+a=128 | sum=$(( $a + $TRUEKNOWLEDGE )) | echo $sum
