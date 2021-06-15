@@ -1,2 +1,2 @@
 #!/bin/bash
-me="$USER" | echo "hello $me"
+me="$(id -u -n)" | echo "hello $me"
