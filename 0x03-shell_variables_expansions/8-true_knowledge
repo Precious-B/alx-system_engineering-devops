@@ -1,0 +1,2 @@
+#!/bin/bash
+let a=128+$TRUEKNOWLEDGE | echo $a
