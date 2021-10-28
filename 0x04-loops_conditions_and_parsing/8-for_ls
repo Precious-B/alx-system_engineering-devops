@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+#A script for special ls
+for i in *
+do
+    echo "$i" | cut -d '-' -f 2;
+done
